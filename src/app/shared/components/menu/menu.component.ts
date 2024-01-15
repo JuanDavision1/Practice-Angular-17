@@ -44,8 +44,9 @@ export class MenuComponent {
         icon: 'pi pi-config',
         items: [
           {
-            label: 'Otro Elemento',
+            label: 'Custom Pipes',
             icon: 'pi pi-align-left',
+            routerLink:'custom'
           },
         ],
       },

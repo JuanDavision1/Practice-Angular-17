@@ -19,6 +19,10 @@ export const routes: Routes = [
         loadComponent:()=> import('./products/pages/numbers-page/numbers-page.component').then(m=>m.NumbersPageComponent)
     },
     {
+        path:'custom',
+        loadComponent:()=> import('./products/pages/order/order.component').then(m=>m.OrderComponent)
+    },
+    {
         path:'**',
         redirectTo:''
     }
